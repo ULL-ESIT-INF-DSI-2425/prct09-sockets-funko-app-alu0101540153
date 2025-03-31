@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
     "funko": "tsc-watch --onSuccess \"node dist/index.js\"",
-    "modi1": "tsc-watch --onSuccess \"node dist/modi1/countOcurrences.js\"",
+    "server": "tsc-watch --onSuccess \"node dist/modi/server.js\"",
+    "cliente": "tsc-watch --onSuccess \"node dist/modi/cliente.js\"",
     "modi2": "tsc-watch --onSuccess \"node dist/modi2/meteo.js\"",
     "e1": "tsc-watch --onSuccess \"node dist/ejercicio-1/pokemon.js\"",
     "e2": "tsc-watch --onSuccess \"node dist/ejercicio-2/artista.js\"",
@@ -22,7 +23,7 @@
     "@eslint/js": "^9.19.0",
     "@types/chalk": "^0.4.31",
     "@types/jest": "^29.5.14",
-    "@types/node": "^22.13.9",
+    "@types/node": "^22.13.14",
     "@types/yargs": "^17.0.33",
     "@vitest/coverage-v8": "^3.0.5",
     "eslint": "^9.19.0",
